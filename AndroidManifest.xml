@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahmedhamdy14.amarket"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.ahmedhamdy14.amarket.AMarket" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ahmedhamdy14.amarket.Main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ahmedhamdy14.amarket.Depatment" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.OfferSeason" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.OfferIn" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Information" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Call" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Detergent" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Freezers" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Fruits" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Grecory" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Milk" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Offers2" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Offers3" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Offers4" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Offers5" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Offers6" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Offers7" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Offers8" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Page2info" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Page3info" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Page4info" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Page5info" />
+        <activity android:name="com.example.ahmedhamdy14.amarket.Water" />
+
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
